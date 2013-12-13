@@ -63,6 +63,9 @@ boxes_configuration.each do |box_config|
         else
           raise "Unknown type of server. Needs to be php53, ruby193, ... Please consult the README."
         end
+        if box['elasticsearch']
+          chef.add_recipe "java"
+        end
         ## Enable for Chef development:
         # chef.add_recipe "chef_handler"
         # chef.add_recipe "minitest-handler"
