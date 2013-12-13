@@ -4,3 +4,6 @@
 [submodule "chef/cookbooks/chef_handler"]
 	path = chef/cookbooks/chef_handler
 	url = git://github.com/opscode-cookbooks/chef_handler.git
+[submodule "chef/cookbooks/elasticsearch"]
+	path = chef/cookbooks/elasticsearch
+	url = git@github.com:elasticsearch/cookbook-elasticsearch.git
