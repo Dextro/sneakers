@@ -10,3 +10,9 @@
 [submodule "chef/cookbooks/java"]
 	path = chef/cookbooks/java
 	url = git@github.com:socrata/java.git
+[submodule "chef/cookbooks/aws"]
+	path = chef/cookbooks/aws
+	url = git@github.com:opscode-cookbooks/aws.git
+[submodule "chef/cookbooks/windows"]
+	path = chef/cookbooks/windows
+	url = git@github.com:opscode-cookbooks/windows.git
