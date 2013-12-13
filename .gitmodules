@@ -7,3 +7,6 @@
 [submodule "chef/cookbooks/elasticsearch"]
 	path = chef/cookbooks/elasticsearch
 	url = git@github.com:elasticsearch/cookbook-elasticsearch.git
+[submodule "chef/cookbooks/java"]
+	path = chef/cookbooks/java
+	url = git@github.com:socrata/java.git
