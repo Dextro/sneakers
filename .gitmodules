@@ -16,3 +16,6 @@
 [submodule "chef/cookbooks/windows"]
 	path = chef/cookbooks/windows
 	url = git@github.com:opscode-cookbooks/windows.git
+[submodule "chef/cookbooks/ark"]
+	path = chef/cookbooks/ark
+	url = git@github.com:opscode-cookbooks/ark.git
