@@ -64,7 +64,15 @@ boxes_configuration.each do |box_config|
           raise "Unknown type of server. Needs to be php53, ruby193, ... Please consult the README."
         end
         if box['elasticsearch']
+          chef.json.merge!(
+            :elasticsearch => {
+              :cluster => {
+                :name => "elasticsearch_" + name
+              }
+            }
+          )
           chef.add_recipe "java"
+          chef.add_recipe "elasticsearch"
         end
         ## Enable for Chef development:
         # chef.add_recipe "chef_handler"
